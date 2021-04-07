@@ -1,0 +1,138 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.header {
+  padding: 15px 0;
+}
+.navigation {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.navigation-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #939699;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+.button {
+  padding: 10px 20px;
+  background: #4592ff;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.button-icon,
+.button-prise {
+  margin-right: 10px;
+}
+.button-icon:last-child {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.slide {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+.slide-1 {
+  background: #b4d1e0 url("../img/slide-image-1.png") no-repeat top right 30%;
+}
+.label {
+  padding: 5px 12px;
+  background-color: #3dc47e;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 3px;
+  color: #fff;
+}
+.slide-title {
+  color: #262d33;
+  font-family: "Roboto Slab", serif;
+  font-size: 55px;
+  line-height: 70px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.slide-description {
+  color: #4b5157;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 335px;
+  margin-bottom: 40px;
+}
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.slide-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.card {
+  min-height: 370px;
+  border-radius: 10px;
+  padding: 60px 46px 80px 46px;
+}
+.card-1 {
+  background: #dedddb url("../img/card-image-1.jpg") no-repeat top right;
+  background-size: cover;
+}
+.card-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262d33;
+  max-width: 222px;
+  margin: 0;
+}
+.card-text {
+  margin: 15px 0px 25px 0px;
+  max-width: 176px;
+  color: #4b5157;
+  font-size: 14px;
+  line-height: 20px;
+}
+.card-2 {
+  background: url("../img/card-image-2.jpg") no-repeat top right;
+  background-size: cover;
+}
+.text-light {
+  color: #ffffff;
+  opacity: 0.85;
+}
+.card-3 {
+  background: #ccd5e6 url("../img/image-045.svg") no-repeat top right 20%;
+  background-size: center;
+  min-width: 860px;
+  padding: 35px 46px 60px 46px;
+  margin: 20px 0px 40px 0px;
+}
+.text-bold {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  line-height: 50px;
+  min-width: 419px;
+}
